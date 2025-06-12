@@ -1,0 +1,13 @@
+GameStatIQ/
+│
+├── app.py                   # Ana Streamlit uygulaması
+├── data_fetching/
+│   └── riot_api.py          # Riot API’den veri çekme
+│   └── steam_api.py         # Steam API’den veri çekme
+├── analysis/
+│   └── analyzer.py          # İstatistik hesaplamaları
+├── recommendation/
+│   └── suggestor.py         # Öneri algoritması
+├── assets/
+│   └── logo.png             # Logo / görseller
+└── requirements.txt
