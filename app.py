@@ -5,6 +5,10 @@ from analysis.analyzer import analyze_kd_ratio, plot_kd_trend
 from recommendation.suggestor import suggest_training
 from data_fetching.riot_api import fetch_riot_data  # örnek olarak Riot API seçildi
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 st.set_page_config(page_title="GameStatIQ", layout="wide")
 st.title("🎮 GameStatIQ - Kişisel Oyun Performans Analizi")
 

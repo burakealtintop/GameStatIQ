@@ -2,7 +2,7 @@
 
 import requests
 
-API_KEY = "RIOT_API_KEY"  # https://developer.riotgames.com adresinden alınmalı
+API_KEY = "RGAPI-6ac6d14b-03d0-463f-86b8-802e8984f19f"  # https://developer.riotgames.com adresinden alınmalı
 HEADERS = {"X-Riot-Token": API_KEY}
 
 def fetch_riot_data(username):
@@ -38,5 +38,5 @@ def fetch_riot_data(username):
                     break
         return match_data
     except Exception as e:
-        print(f\"Hata: {e}\")
+        print(f"Hata: {e}")
         return None
